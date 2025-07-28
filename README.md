@@ -8,7 +8,7 @@ The image is available at https://hub.docker.com/repository/docker/yeya24/tidb-p
 ### Start container
 
 ``` bash
-docker run -d -p 4000:4000 -p 2379:2379 hooopo/tidb-playground:v5.2.0
+docker run -d -p 4000:4000 -p 2379:2379 hawkingrei/tidb-playground:v5.2.0
 ```
 
 After few seconds we can check the logs of the container to make sure our TiDB cluster is up and running.
