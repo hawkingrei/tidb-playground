@@ -3,10 +3,10 @@ name: presubmit
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   presubmit:
@@ -19,4 +19,4 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
       - name: Build image
-        run: ./build_with_tiflash.sh   
+        run: ./build_with_tiflash.sh --no-push
