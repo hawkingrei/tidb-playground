@@ -1,7 +1,7 @@
 name: daily-build
 on:
   # Schedule daily updates
-  schedule: [{cron: "0/20 * * * *"}]
+  schedule: [{cron: "0 14 * * *"}]
   # (optional) Run workflow manually
 
 jobs:
