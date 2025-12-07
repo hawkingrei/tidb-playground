@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -x
 current_date=$(date +%Y-%m-%d)
-TIDB_VERSION_SLICE=('v7.5.7' 'v8.1.2' 'v8.5.3' "nightly")
+TIDB_VERSION_SLICE=('v7.5.7' 'v8.1.2' 'v8.5.4' "nightly")
 
 NO_PUSH=false
 
