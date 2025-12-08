@@ -1,4 +1,11 @@
+lease = "0"
+socket = ""
+enable-table-lock = true
+max-index-length = 12288
 new_collations_enabled_on_first_bootstrap = true
+
+[performance]
+stats-lease = "0"
 
 [experimental]
 allow-expression-index = true
